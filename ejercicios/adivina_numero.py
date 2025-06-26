@@ -14,7 +14,7 @@ while True:
         break
     else:
         if (adivina == numero):
-            print('Felecidades, adivinaste')
+            print('Felicidades, adivinaste')
             break
         
             
