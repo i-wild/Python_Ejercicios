@@ -18,6 +18,12 @@ Para clonar y ejecutar los ejercicios localmente, sigue estos pasos:
 git clone https://github.com/tu-usuario/ejercicios-python.git
 ```
 
+Instala las dependencias necesarias:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Cómo Contribuir
 
 ¡Gracias por considerar contribuir! Si deseas agregar más ejercicios, sigue estos pasos:
