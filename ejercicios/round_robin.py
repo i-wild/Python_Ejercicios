@@ -122,11 +122,12 @@ try:
         for process in process_list:
             print(
                 f'Proceso #{process.id}, finalizo: {process.ending}, tiempo de espera: {process.wait}, retorno: {process.return_}')
-            total_return = total_return + process.return_
-            total_wait = total_wait + process.wait
-            print(f'Promedio de retorno: {total_return/len(process_list)}')
-            print(f'Promedio de espera: {total_wait/len(process_list)}')
-            print()
+            total_return += process.return_
+            total_wait += process.wait
+
+        print(f'Promedio de retorno: {total_return/len(process_list)}')
+        print(f'Promedio de espera: {total_wait/len(process_list)}')
+        print()
     else:
         print('El número de procesos debe ser mayor a 0 (cero) para poder probar el algoritmo.')
 except Exception as e:
