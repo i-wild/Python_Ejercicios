@@ -30,6 +30,7 @@ def total_disponible():
 def retirar(monto):
     if monto > total_disponible():
         print("Error, no hay suficiente efectivo")
+        return
     
     saldo_retirar = monto
     while saldo_retirar > 0:
