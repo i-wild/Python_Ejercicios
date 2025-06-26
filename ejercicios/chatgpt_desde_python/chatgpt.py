@@ -1,9 +1,12 @@
 """
     1. Instalar openai:
         pip install openai
+    2. Antes de ejecutar, define tu clave de API:
+        export OPENAI_API_KEY="tu-clave"
 """
+import os
 import openai
-openai.api_key = "key"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 while True:
     try:
