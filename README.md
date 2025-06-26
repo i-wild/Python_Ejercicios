@@ -10,6 +10,7 @@ Para clonar y ejecutar los ejercicios localmente, sigue estos pasos:
 
 - Python 3.x
 - git
+- Variable de entorno `OPENAI_API_KEY` para el ejemplo de ChatGPT
 
 ### Clonar el repositorio
 
@@ -36,3 +37,12 @@ def mi_funcion(argumentos):
 ¡Espero que encuentres estos ejercicios útiles para mejorar tus habilidades de programación en Python! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactarme: [jimcostdev.com](https://www.jimcostdev.com/)
 
 ¡Gracias por visitar y Happy Coding! 🚀
+
+## Uso del ejemplo de ChatGPT
+
+Para ejecutar `ejercicios/chatgpt_desde_python/chatgpt.py` necesitas definir la variable de entorno `OPENAI_API_KEY` con tu clave de OpenAI antes de iniciar el script:
+
+```bash
+export OPENAI_API_KEY="tu-clave"
+python ejercicios/chatgpt_desde_python/chatgpt.py
+```
